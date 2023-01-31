@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="305dp"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="15dp"
+    android:layout_marginVertical="10dp"
+    android:layout_marginHorizontal="5dp"
+    android:backgroundTint="@color/mySecondaryBlack"
+    android:layout_gravity="center_horizontal">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginVertical="20dp">
+
+
+        <ImageView
+            android:id="@+id/tv_image"
+            android:background="@drawable/rounded"
+            android:layout_width="90dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:src="@drawable/earth"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="15dp">
+
+            <TextView
+                android:id="@+id/tv_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat_bold"
+                android:text="Title"
+                android:layout_marginBottom="10dp"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat_semibold"
+                android:text="Popularity :"
+                android:textColor="@color/myGray"
+                android:textSize="9sp" />
+
+            <TextView
+                android:id="@+id/tv_popularity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat_semibold"
+                android:text="1000.21"
+                android:textColor="#ffd000"
+                android:textSize="12sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat_semibold"
+                android:text="Release date :"
+                android:textColor="@color/myGray"
+                android:textSize="9sp" />
+
+            <TextView
+                android:id="@+id/tv_release"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat_semibold"
+                android:text="21-04-05"
+                android:textColor="@color/myGreen"
+                android:textSize="12sp" />
+
+            <!--            <ImageView-->
+            <!--                android:layout_width="wrap_content"-->
+            <!--                android:layout_height="wrap_content"-->
+            <!--                android:src="@drawable/arrow_forward"-->
+            <!--                android:layout_gravity="end"/>-->
+
+
+            <!--            <RelativeLayout-->
+            <!--                android:layout_width="wrap_content"-->
+            <!--                android:layout_height="wrap_content">-->
+
+            <!--                <ImageView-->
+            <!--                    android:id="@+id/moreInfo"-->
+            <!--                    android:layout_width="wrap_content"-->
+            <!--                    android:layout_height="wrap_content"-->
+            <!--                    android:layout_gravity="end"-->
+            <!--                    android:backgroundTint="@color/myWhite"-->
+            <!--                    android:src="@drawable/arrow_forward" />-->
+
+            <!--                <TextView-->
+            <!--                    android:id="@+id/more"-->
+            <!--                    android:layout_width="wrap_content"-->
+            <!--                    android:layout_height="wrap_content"-->
+            <!--                    android:layout_alignParentBottom="true"-->
+            <!--                    android:layout_gravity="end"-->
+            <!--                    android:fontFamily="@font/montserrat_semibold"-->
+            <!--                    android:text="Selengkapnya"-->
+            <!--                    android:textColor="@color/myBlue"-->
+            <!--                    android:textSize="14sp" />-->
+            <!--            </RelativeLayout>-->
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
